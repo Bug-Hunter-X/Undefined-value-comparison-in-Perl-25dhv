@@ -1,0 +1,2 @@
+my $var = undef;if (defined($var) && $var eq 'some_value') {print "Value is equal";}
+  elsif (defined($var) && $var eq 'other_value'){print "Value is other";} else {print "Value is undefined or not equal";}
